@@ -38,6 +38,7 @@ interface AgentMetadata {
 interface IndexEntry extends Omit<AgentMetadata, "icon" | "banner"> {
   icon: string | null;
   banner: string | null;
+  social_preview: string | null;
   readme: string;
   added_at: string;
 }
@@ -61,6 +62,22 @@ function getFirstCommitDate(folderPath: string): string {
     // fallback
   }
   return new Date().toISOString().split("T")[0];
+}
+
+function fetchSocialPreview(repoUrl: string): string | null {
+  try {
+    const html = execSync(`curl -sL "${repoUrl}"`, {
+      encoding: "utf-8",
+      timeout: 15_000,
+    });
+    const match = html.match(/property="og:image"\s+content="([^"]+)"/);
+    if (match?.[1] && !match[1].includes("avatars.githubusercontent.com")) {
+      return match[1];
+    }
+  } catch {
+    // fallback
+  }
+  return null;
 }
 
 function buildIndex(): Index {
@@ -97,6 +114,9 @@ function buildIndex(): Index {
     const hasBanner = metadata.banner === true && existsSync(join(folderPath, "banner.png"));
     const addedAt = getFirstCommitDate(folderPath);
 
+    console.log(`  Fetching social preview for ${metadata.repository}...`);
+    const socialPreview = fetchSocialPreview(metadata.repository);
+
     const entry: IndexEntry = {
       name: metadata.name,
       author: metadata.author,
@@ -110,6 +130,7 @@ function buildIndex(): Index {
       adapters: metadata.adapters,
       icon: hasIcon ? `${RAW_BASE}/agents/${folder}/icon.png` : null,
       banner: hasBanner ? `${RAW_BASE}/agents/${folder}/banner.png` : null,
+      social_preview: socialPreview,
       readme: `${RAW_BASE}/agents/${folder}/README.md`,
       added_at: addedAt,
     };
