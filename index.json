@@ -72,6 +72,42 @@
       "added_at": "2026-03-01"
     },
     {
+      "name": "claude-law-firm",
+      "author": "shreyas-lyzr",
+      "description": "Claude-native legal AI agent for boutique law firms. Contract review, tracked-changes editing, drafting, client comms, research, and policy writing.",
+      "repository": "https://github.com/shreyas-lyzr/claude-law-firm",
+      "version": "1.0.0",
+      "category": "compliance",
+      "tags": [
+        "legal",
+        "contract-review",
+        "law-firm",
+        "compliance",
+        "drafting",
+        "research"
+      ],
+      "license": "MIT",
+      "model": "claude-sonnet-4-5-20250929",
+      "adapters": [
+        "claude-code",
+        "openai",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "language": null,
+        "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/2db9cf8109841ed932176cc2eeb0ca71008ab2f9de9f11e08a38a4adec2f7762/shreyas-lyzr/claude-law-firm",
+        "description": null
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__claude-law-firm/README.md",
+      "added_at": "2026-03-01"
+    },
+    {
       "name": "quant-sim",
       "author": "shreyas-lyzr",
       "description": "Institutional-grade prediction market simulation engine — Monte Carlo, particle filters, copulas, and agent-based modeling",
@@ -109,6 +145,6 @@
       "added_at": "2026-03-01"
     }
   ],
-  "total": 3,
-  "generated_at": "2026-03-01T16:40:46.371Z"
+  "total": 4,
+  "generated_at": "2026-03-01T20:52:49.589Z"
 }
