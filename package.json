@@ -1,0 +1,21 @@
+{
+  "name": "@open-gitagent/registry",
+  "version": "1.0.0",
+  "description": "Public agent registry for gitagent — registry.gitagent.sh",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "npx tsx scripts/validate.ts",
+    "build:index": "npx tsx scripts/build-index.ts",
+    "build:site": "cd site && npm run build",
+    "build": "npm run build:index && npm run build:site",
+    "dev": "cd site && npm run dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "ajv": "^8.17.0",
+    "ajv-formats": "^3.0.0"
+  },
+  "license": "MIT"
+}
