@@ -30,7 +30,7 @@
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/fb12cdd7813bedc8e01dac838036f1878b14aeaccb5b00430bc015bc56bbc69e/shreyas-lyzr/agent-designer",
+        "social_preview": "https://opengraph.githubassets.com/752c94633ab4ecf64897986617481341ec80e3c522fdbfe9a44449c755aec306/shreyas-lyzr/agent-designer",
         "description": "Meta-agent for designing AI agent action spaces — based on lessons from building Claude Code"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__agent-designer/README.md",
@@ -143,6 +143,43 @@
       "added_at": "2026-03-01"
     },
     {
+      "name": "gstack-agent",
+      "author": "shreyas-lyzr",
+      "description": "Six opinionated workflow skills — CEO/founder product thinking, eng manager architecture, staff engineer review, release engineer shipping, QA browser testing, and engineering retrospectives. Based on Garry Tan's gstack.",
+      "repository": "https://github.com/shreyas-lyzr/gstack-agent",
+      "version": "1.0.0",
+      "category": "developer-tools",
+      "tags": [
+        "gstack",
+        "workflow",
+        "code-review",
+        "shipping",
+        "retrospective",
+        "browser-testing",
+        "plan-review"
+      ],
+      "license": "MIT",
+      "model": "claude-opus-4-6",
+      "adapters": [
+        "claude-code",
+        "openai",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "language": null,
+        "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/d0f302d38223af7ca903421d58fce82b41210a95548e29f8c5104669eb4c22d3/shreyas-lyzr/gstack-agent",
+        "description": null
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__gstack-agent/README.md",
+      "added_at": "2026-03-12"
+    },
+    {
       "name": "marketing-agent",
       "author": "shreyas-lyzr",
       "description": "AI marketing agent with 32 skills — SEO, CRO, copywriting, ads, email, analytics, pricing. Skills by @coreyhaines31.",
@@ -208,12 +245,12 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 15,
+        "stars": 16,
         "forks": 3,
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/26209a8c8e95916b35f967db1b2d3574ec9a775c637be1d47b7ee9c8a9aa1e99/shreyas-lyzr/quant-sim",
+        "social_preview": "https://opengraph.githubassets.com/5345773d653d4b0d6891a674267e7ee8c8c99110eb97fb4318160b5fba04ce60/shreyas-lyzr/quant-sim",
         "description": "Institutional-grade prediction market simulation engine — Monte Carlo, importance sampling, particle filters, copula dependency modeling, and agent-based market microstructure"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__quant-sim/README.md",
@@ -256,6 +293,6 @@
       "added_at": "2026-03-04"
     }
   ],
-  "total": 7,
-  "generated_at": "2026-03-04T16:44:09.027Z"
+  "total": 8,
+  "generated_at": "2026-03-12T20:40:53.789Z"
 }
