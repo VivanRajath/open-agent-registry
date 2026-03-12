@@ -1,0 +1,14 @@
+{
+  "name": "gstack-agent",
+  "author": "shreyas-lyzr",
+  "description": "Six opinionated workflow skills — CEO/founder product thinking, eng manager architecture, staff engineer review, release engineer shipping, QA browser testing, and engineering retrospectives. Based on Garry Tan's gstack.",
+  "repository": "https://github.com/shreyas-lyzr/gstack-agent",
+  "version": "1.0.0",
+  "category": "developer-tools",
+  "tags": ["gstack", "workflow", "code-review", "shipping", "retrospective", "browser-testing", "plan-review"],
+  "license": "MIT",
+  "model": "claude-opus-4-6",
+  "adapters": ["claude-code", "openai", "system-prompt"],
+  "icon": false,
+  "banner": false
+}
