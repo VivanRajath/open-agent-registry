@@ -143,6 +143,42 @@
       "added_at": "2026-03-01"
     },
     {
+      "name": "exa-lead-gen-agent",
+      "author": "shreyas-lyzr",
+      "description": "Generate enriched lead lists using Exa deep search with ICP scoring, micro-vertical expansion, parallel batch subagents, and CSV output.",
+      "repository": "https://github.com/shreyas-lyzr/exa-lead-gen-agent",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": [
+        "lead-generation",
+        "exa",
+        "sales",
+        "icp",
+        "prospecting",
+        "csv",
+        "enrichment"
+      ],
+      "license": "MIT",
+      "model": "claude-opus-4-6",
+      "adapters": [
+        "claude-code",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "language": null,
+        "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
+        "social_preview": "https://opengraph.githubassets.com/16f14a85b5fc36297c20f085c32f223015bf5359ebb76bd502f84e8b718b53fb/shreyas-lyzr/exa-lead-gen-agent",
+        "description": null
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__exa-lead-gen-agent/README.md",
+      "added_at": "2026-03-12"
+    },
+    {
       "name": "gstack-agent",
       "author": "shreyas-lyzr",
       "description": "Six opinionated workflow skills — CEO/founder product thinking, eng manager architecture, staff engineer review, release engineer shipping, QA browser testing, and engineering retrospectives. Based on Garry Tan's gstack.",
@@ -293,6 +329,6 @@
       "added_at": "2026-03-04"
     }
   ],
-  "total": 8,
-  "generated_at": "2026-03-12T20:40:53.789Z"
+  "total": 9,
+  "generated_at": "2026-03-12T22:05:21.371Z"
 }
