@@ -60,7 +60,7 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 2,
+        "stars": 5,
         "forks": 1,
         "issues": 0,
         "language": null,
@@ -131,16 +131,53 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 3,
+        "stars": 4,
         "forks": 1,
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/493381749cc40d7fe5f383bce20e2b04adcf8e2651e2568864c47fab975d38b7/shreyas-lyzr/claude-law-firm",
+        "social_preview": "https://opengraph.githubassets.com/e109a17130f928e026a555674cdc464a9734ad45eb6fffcdc2e9f31970e65389/shreyas-lyzr/claude-law-firm",
         "description": null
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__claude-law-firm/README.md",
       "added_at": "2026-03-01"
+    },
+    {
+      "name": "dashclaw-agent",
+      "author": "ucsandman",
+      "description": "The definitive DashClaw expert — helps developers integrate, configure, troubleshoot, and build the AI agent governance platform. Governs itself on DashClaw.",
+      "repository": "https://github.com/ucsandman/dashclaw-agent",
+      "version": "1.0.0",
+      "category": "governance",
+      "tags": [
+        "dashclaw",
+        "governance",
+        "ai-agents",
+        "security",
+        "compliance",
+        "policy-firewall",
+        "sdk",
+        "hitl"
+      ],
+      "license": "MIT",
+      "model": "claude-opus-4-6",
+      "adapters": [
+        "claude-code",
+        "system-prompt"
+      ],
+      "icon": null,
+      "banner": null,
+      "github": {
+        "stars": 0,
+        "forks": 0,
+        "issues": 0,
+        "language": null,
+        "avatar": "https://avatars.githubusercontent.com/u/128239567?v=4",
+        "social_preview": "https://opengraph.githubassets.com/e3331d5d9418b6edfe504afed3044784435f3393fc7a4e176d287d6d32a72b66/ucsandman/dashclaw-agent",
+        "description": "The definitive DashClaw expert — AI agent that helps integrate, configure, troubleshoot, and build the AI agent governance platform. Governs itself on DashClaw."
+      },
+      "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/ucsandman__dashclaw-agent/README.md",
+      "added_at": "2026-03-17"
     },
     {
       "name": "exa-lead-gen-agent",
@@ -167,12 +204,12 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 0,
-        "forks": 0,
+        "stars": 3,
+        "forks": 1,
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/16f14a85b5fc36297c20f085c32f223015bf5359ebb76bd502f84e8b718b53fb/shreyas-lyzr/exa-lead-gen-agent",
+        "social_preview": "https://opengraph.githubassets.com/43a95a5651cef4e0067c1425cc3f1f3fb653771c612e37ddb8147b4049390a25/shreyas-lyzr/exa-lead-gen-agent",
         "description": null
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__exa-lead-gen-agent/README.md",
@@ -204,12 +241,12 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 0,
+        "stars": 1,
         "forks": 0,
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/d0f302d38223af7ca903421d58fce82b41210a95548e29f8c5104669eb4c22d3/shreyas-lyzr/gstack-agent",
+        "social_preview": "https://opengraph.githubassets.com/4e0274274c26e6bb0096d0646faa7ca78f0bbb8ae70b60404059b62fa6372d9a/shreyas-lyzr/gstack-agent",
         "description": null
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__gstack-agent/README.md",
@@ -281,12 +318,12 @@
       "icon": null,
       "banner": null,
       "github": {
-        "stars": 16,
+        "stars": 17,
         "forks": 3,
         "issues": 0,
         "language": null,
         "avatar": "https://avatars.githubusercontent.com/u/141219160?v=4",
-        "social_preview": "https://opengraph.githubassets.com/5345773d653d4b0d6891a674267e7ee8c8c99110eb97fb4318160b5fba04ce60/shreyas-lyzr/quant-sim",
+        "social_preview": "https://opengraph.githubassets.com/bf68a11ac1ed070f3f949f246c7a226199873eb6caf33bcee280508dacdba485/shreyas-lyzr/quant-sim",
         "description": "Institutional-grade prediction market simulation engine — Monte Carlo, importance sampling, particle filters, copula dependency modeling, and agent-based market microstructure"
       },
       "readme": "https://raw.githubusercontent.com/open-gitagent/registry/main/agents/shreyas-lyzr__quant-sim/README.md",
@@ -329,6 +366,6 @@
       "added_at": "2026-03-04"
     }
   ],
-  "total": 9,
-  "generated_at": "2026-03-12T22:05:21.371Z"
+  "total": 10,
+  "generated_at": "2026-03-18T11:46:55.773Z"
 }
